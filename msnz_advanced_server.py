@@ -19,7 +19,7 @@ catalog = {
 }
 
 # create API server
-app = FastAPI(title = "New Jersey API Server")
+app = FastAPI(title = "Musanze API Server")
 
 # set up an endpoint for all catalog products
 @app.get("/warehouse/{product}")
