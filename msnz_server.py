@@ -11,7 +11,7 @@ catalog = {
 	}
 }
 
-app = FastAPI( title = "New Jersey API Server")
+app = FastAPI( title = "Musanze API Server")
 
 @app.get("/warehouse/{product}")
 async def load_truck(product, order_qty):
